@@ -1,0 +1,472 @@
+[
+  {
+    "id": "n1",
+    "title": ["Erlebnisziele", "Experience goals"],
+    "category": ["Grundlagen", "Foundations"],
+    "summary": [
+      "Beschreibe, was Menschen erleben sollen, bevor du Features planst.",
+      "Describe what people should experience before planning features."
+    ],
+    "example": [
+      "Die Gruppe erlebt, dass sie eine schwierige Aufgabe gemeinsam lösen kann.",
+      "A group experiences solving a difficult challenge together."
+    ],
+    "source": "Game Design / Part I · S. 13"
+  },
+  {
+    "id": "n2",
+    "title": ["Früh prototypisieren", "Prototype early"],
+    "category": ["Designprozess", "Design process"],
+    "summary": [
+      "Teste die Idee mit Papier, Karten oder Rollenspiel, bevor du Code schreibst.",
+      "Test an idea using paper, cards or role play before writing code."
+    ],
+    "example": [
+      "Spiele eine Lernmission mit drei Kolleg:innen in zehn Minuten durch.",
+      "Play a learning mission with three colleagues in ten minutes."
+    ],
+    "source": "Game Design / Part I · S. 13"
+  },
+  {
+    "id": "n3",
+    "title": ["Iterativ verbessern", "Iterate"],
+    "category": ["Designprozess", "Design process"],
+    "summary": [
+      "Ziel setzen, einfachen Prototyp bauen, beobachten und gezielt überarbeiten. Die Details zu Schritt 1 und 2 fehlen in den Notizen.",
+      "Set a goal, prototype, observe and revise. Details of steps 1 and 2 are missing from the supplied notes."
+    ],
+    "example": [
+      "Teste zuerst, ob die Aufgabenstellung ohne zusätzliche Erklärung verständlich ist.",
+      "First test whether participants understand the task without extra explanation."
+    ],
+    "source": "Game Design / Part I · S. 17–24"
+  },
+  {
+    "id": "n4",
+    "title": ["Interaktionsmuster", "Interaction patterns"],
+    "category": ["Grundlagen", "Foundations"],
+    "summary": [
+      "Entscheide, ob allein, gegeneinander oder gemeinsam gespielt wird. Das verändert das Erlebnis.",
+      "Choose solo, competitive or cooperative play: each changes the experience."
+    ],
+    "example": [
+      "Teams sammeln gemeinsam Hinweise statt Einzelne in einer Rangliste zu vergleichen.",
+      "Teams collect clues together instead of comparing individuals on a leaderboard."
+    ],
+    "source": "Game Design / Part I · S. 63–68"
+  },
+  {
+    "id": "n5",
+    "title": ["Ziele & Herausforderung", "Goals & challenge"],
+    "category": ["Grundlagen", "Foundations"],
+    "summary": [
+      "Ein gutes Spielziel ist klar, herausfordernd und erreichbar. Ein Spielziel ersetzt kein Lernziel.",
+      "A good game objective is clear, challenging and achievable. It does not replace a learning objective."
+    ],
+    "example": [
+      "Lernziel: Feedback formulieren. Spielziel: drei Gesprächssituationen lösen.",
+      "Learning goal: give feedback. Game goal: solve three conversation scenarios."
+    ],
+    "source": "Game Design / Part I · S. 72"
+  },
+  {
+    "id": "n6",
+    "title": ["Abläufe & Core Loop", "Procedures & core loop"],
+    "category": ["Mechaniken", "Mechanics"],
+    "summary": [
+      "Definiere wiederholbare Aktionen: handeln, Rückmeldung erhalten, Fortschritt erkennen, erneut handeln.",
+      "Define repeatable actions: act, receive feedback, see progress, act again."
+    ],
+    "example": [
+      "Fall lesen → Entscheidung treffen → Begründung sehen → nächsten Fall wählen.",
+      "Read case → choose → see explanation → select next case."
+    ],
+    "source": "Game Design / Part I · S. 78–81"
+  },
+  {
+    "id": "n7",
+    "title": ["Regeln verständlich machen", "Make rules understandable"],
+    "category": ["Grundlagen", "Foundations"],
+    "summary": [
+      "Regeln beschreiben Objekte, erlaubte Aktionen und deren Folgen. Zu viele Regeln erschweren sinnvolle Entscheidungen.",
+      "Rules define objects, permitted actions and consequences. Too many rules obstruct meaningful choices."
+    ],
+    "example": [
+      "Zeige eine Beispielrunde, bevor die Teams selbst starten.",
+      "Show an example round before teams begin."
+    ],
+    "source": "Game Design / Part I · S. 81–84"
+  },
+  {
+    "id": "n8",
+    "title": ["Ressourcen", "Resources"],
+    "category": ["Mechaniken", "Mechanics"],
+    "summary": [
+      "Ressourcen brauchen einen Nutzen und begrenzte Verfügbarkeit. Beispiele: Zeit, Aktionen, Leben, Einheiten, Energie, Währung, Power-ups, Inventar oder Spezialfelder.",
+      "Resources need utility and scarcity: time, actions, lives, units, health, currency, power-ups, inventory or special terrain."
+    ],
+    "example": [
+      "Ein Team hat drei Beratungskarten und entscheidet selbst, wann es Hilfe nutzt.",
+      "A team has three advice cards and decides when to use help."
+    ],
+    "source": "Game Design / Part I · S. 84–90"
+  },
+  {
+    "id": "n9",
+    "title": ["Konflikte & Dilemmata", "Conflict & dilemmas"],
+    "category": ["Grundlagen", "Foundations"],
+    "summary": [
+      "Hindernisse, Gegenspieler oder Entscheidungen mit konkurrierenden Folgen erzeugen Spannung.",
+      "Obstacles, opponents and decisions with competing consequences create tension."
+    ],
+    "example": [
+      "Eine Führungskraft entscheidet zwischen schneller Lösung und nachhaltiger Teamentwicklung.",
+      "A manager chooses between a fast fix and sustainable team development."
+    ],
+    "source": "Game Design / Part I · S. 90–92"
+  },
+  {
+    "id": "n10",
+    "title": ["Sicherer Spielraum", "Boundaries & safety"],
+    "category": ["Grundlagen", "Foundations"],
+    "summary": [
+      "Grenzen machen deutlich, wann das Spiel beginnt und endet. Freiwilligkeit und eine Ausstiegsmöglichkeit schaffen Sicherheit.",
+      "Boundaries define where a game begins and ends. Voluntary participation and an exit option support safety."
+    ],
+    "example": [
+      "Rollenspiel mit klarer Dauer, Stoppsignal und gemeinsamem Debrief.",
+      "Role play with a time limit, stop signal and shared debrief."
+    ],
+    "source": "Game Design / Part I · S. 92–93"
+  },
+  {
+    "id": "n11",
+    "title": ["Ergebnisse & Zusammenarbeit", "Outcomes & cooperation"],
+    "category": ["Grundlagen", "Foundations"],
+    "summary": [
+      "Bei Nullsummenspielen entspricht der Gewinn dem Verlust anderer. Andere Spiele können gemeinsamen Erfolg und abgestufte Ergebnisse ermöglichen.",
+      "In zero-sum games, gains equal others’ losses. Other games allow shared success and varied outcomes."
+    ],
+    "example": [
+      "Alle Teams tragen zu einem gemeinsamen Lösungsbild bei.",
+      "All teams contribute to one shared solution."
+    ],
+    "source": "Game Design / Part I · S. 96–97"
+  },
+  {
+    "id": "n12",
+    "title": ["Spiele als Systeme", "Games as systems"],
+    "category": ["Grundlagen", "Foundations"],
+    "summary": [
+      "Objekte, Eigenschaften, Verhalten und Beziehungen wirken zusammen. Ohne Beziehungen ist es nur eine Sammlung.",
+      "Objects, properties, behaviors and relationships form a system. Without relationships it is just a collection."
+    ],
+    "example": [
+      "Eine Hilfekarte kostet Zeit, erhöht aber die Lösungswahrscheinlichkeit.",
+      "A help card costs time but increases the chance of solving a task."
+    ],
+    "source": "Game Design / Part I · S. 134–138"
+  },
+  {
+    "id": "n13",
+    "title": ["Information & Steuerung", "Information & control"],
+    "category": ["Designprozess", "Design process"],
+    "summary": [
+      "Menschen brauchen erkennbare Zustände und intuitive Aktionen, um sinnvolle Entscheidungen zu treffen.",
+      "People need visible states and intuitive actions to make meaningful decisions."
+    ],
+    "example": [
+      "Zeige verbleibende Zeit, Hilfekarten und die aktuelle Aufgabe nebeneinander.",
+      "Show time left, help cards and current task together."
+    ],
+    "source": "Game Design / Part I · S. 156–158"
+  },
+  {
+    "id": "n14",
+    "title": ["Verstärken oder ausgleichen", "Reinforce or balance"],
+    "category": ["Mechaniken", "Mechanics"],
+    "summary": [
+      "Verstärkende Rückkopplung vergrößert einen Vorsprung; ausgleichende Rückkopplung hilft dem System zurück ins Gleichgewicht.",
+      "Reinforcing feedback increases an advantage; balancing feedback moves a system toward equilibrium."
+    ],
+    "example": [
+      "Zusatzhilfe nach zwei Fehlversuchen verhindert, dass Teilnehmende dauerhaft zurückfallen.",
+      "Offer help after two missed attempts so participants do not fall permanently behind."
+    ],
+    "source": "Game Design / Part I · S. 159–160"
+  },
+  {
+    "id": "n15",
+    "title": ["SAPS: Belohnungen", "SAPS rewards"],
+    "category": ["Motivation", "Motivation"],
+    "summary": [
+      "Status, Access, Power, Stuff: Anerkennung, Zugang, Mitgestaltung und materielle Dinge sind unterschiedliche Belohnungen. Die Rangfolge der Quelle ist kein universelles Gesetz.",
+      "Status, Access, Power, Stuff: recognition, access, agency and tangible rewards. The source’s ranking is not a universal law."
+    ],
+    "example": [
+      "Ein Team darf den nächsten Fall auswählen, statt einen Sachpreis zu gewinnen.",
+      "A team chooses the next case rather than winning a material prize."
+    ],
+    "source": "Gamification / Foundations · S. 10–12"
+  },
+  {
+    "id": "n16",
+    "title": ["Spielertypen nach Bartle", "Bartle player types"],
+    "category": ["Motivation", "Motivation"],
+    "summary": [
+      "Erkunden, Erreichen, sozialer Austausch und Wettbewerb sind mögliche Vorlieben. Das Modell ist keine Persönlichkeitsdiagnostik; die Prozentwerte aus der Quelle werden nicht verallgemeinert.",
+      "Exploration, achievement, social interaction and competition are possible preferences. This model is not personality diagnostics; source percentages are not generalized."
+    ],
+    "example": [
+      "Biete eine Erkundungsaufgabe, ein gemeinsames Gespräch und ein freiwilliges Bonusziel an.",
+      "Offer exploration, shared discussion and an optional bonus goal."
+    ],
+    "source": "Gamification / Foundations · S. 21–24"
+  },
+  {
+    "id": "n17",
+    "title": ["Motivation & Meisterschaft", "Motivation & mastery"],
+    "category": ["Motivation", "Motivation"],
+    "summary": [
+      "Äußere Anreize können den Einstieg unterstützen. Langfristig zählen sinnvoller Fortschritt, Können und eine passende Herausforderung.",
+      "External incentives can help people begin. Meaningful progress, mastery and suitable challenges matter over time."
+    ],
+    "example": [
+      "Belohne die erste Übung mit Feedback und mache die wachsende Kompetenz sichtbar.",
+      "Give feedback on the first exercise and make growing competence visible."
+    ],
+    "source": "Gamification / Foundations · S. 26–33"
+  },
+  {
+    "id": "n18",
+    "title": ["MDA-Modell", "MDA framework"],
+    "category": ["Designprozess", "Design process"],
+    "summary": [
+      "Mechaniken sind Regeln und Werkzeuge. Dynamiken entstehen im Spiel. Das Erlebnis beschreibt, wie sich das Spielen anfühlt.",
+      "Mechanics are rules and tools; dynamics emerge during play; aesthetics describe the experience and feelings."
+    ],
+    "example": [
+      "Zeitlimit → Teams teilen Aufgaben auf → Spannung und Zusammengehörigkeit.",
+      "Time limit → teams divide tasks → tension and belonging."
+    ],
+    "source": "Gamification / Foundations · S. 35–36"
+  },
+  {
+    "id": "n19",
+    "title": ["Fünf Arten von Punkten", "Five kinds of points"],
+    "category": ["Mechaniken", "Mechanics"],
+    "summary": [
+      "XP zeigen kumulativen Fortschritt. Einlösepunkte sind Währung. Skillpunkte markieren Aktivitäten. Karma wird weitergegeben. Reputation entsteht durch Bewertungen anderer.",
+      "XP track cumulative progress; redeemable points are currency; skill points mark activities; karma is shared; reputation comes from others’ ratings."
+    ],
+    "example": [
+      "Trenne Lernfortschritt von einlösbaren Token, damit Einlösen keinen Lernstand löscht.",
+      "Separate learning progress from tokens so redemption does not erase progress."
+    ],
+    "source": "Gamification / Foundations · S. 36–41"
+  },
+  {
+    "id": "n20",
+    "title": ["Level & Ranglisten", "Levels & leaderboards"],
+    "category": ["Mechaniken", "Mechanics"],
+    "summary": [
+      "Level strukturieren lange Lernwege. Ranglisten brauchen passende Vergleichsgruppen und können demotivieren oder unerwünschten Wettbewerb erzeugen.",
+      "Levels structure long learning paths. Leaderboards need suitable comparison groups and can discourage people or create unwanted competition."
+    ],
+    "example": [
+      "Zeige persönliche Meilensteine oder Teamfortschritt statt einer öffentlichen Letzten-Liste.",
+      "Show personal milestones or team progress rather than public bottom rankings."
+    ],
+    "source": "Gamification / Foundations · S. 45–53"
+  },
+  {
+    "id": "n21",
+    "title": ["Badges mit Bedeutung", "Meaningful badges"],
+    "category": ["Mechaniken", "Mechanics"],
+    "summary": [
+      "Ein Badge kennzeichnet ein erreichtes Ziel. Es sollte eine nachvollziehbare Leistung ausdrücken.",
+      "A badge marks a completed goal and should represent a clear accomplishment."
+    ],
+    "example": [
+      "„Feedback-Profi“ nach einer angewendeten Gesprächstechnik, nicht nur nach dem Öffnen der Seite.",
+      "Award a feedback badge for applying a conversation technique, not opening a page."
+    ],
+    "source": "Gamification / Foundations · S. 55–59"
+  },
+  {
+    "id": "n22",
+    "title": ["Onboarding & Level Zero", "Onboarding & level zero"],
+    "category": ["Designprozess", "Design process"],
+    "summary": [
+      "Ermögliche einen einfachen ersten Erfolg, führe Komplexität schrittweise ein und lasse Menschen den Nutzen vor einer Registrierung erleben.",
+      "Offer an easy first success, introduce complexity gradually and let people experience value before registration."
+    ],
+    "example": [
+      "Beginne mit einer kurzen Probeentscheidung und hilfreicher Rückmeldung.",
+      "Start with a short practice decision and useful feedback."
+    ],
+    "source": "Gamification / Foundations · S. 59–63"
+  },
+  {
+    "id": "n23",
+    "title": ["Soziale Engagement-Loops", "Social engagement loops"],
+    "category": ["Motivation", "Motivation"],
+    "summary": [
+      "Motivierendes Gefühl → Rückkehr → soziale Aktion → sichtbarer Fortschritt. Soziale Interaktion kann Mechaniken sinnvoll verbinden.",
+      "Motivating emotion → return → social action → visible progress. Social interaction can connect mechanics meaningfully."
+    ],
+    "example": [
+      "Ein Team teilt einen Lösungsansatz, erhält Rückmeldung und entwickelt ihn gemeinsam weiter.",
+      "A team shares an idea, receives feedback and improves it together."
+    ],
+    "source": "Gamification / Foundations · S. 67–70, 79"
+  },
+  {
+    "id": "n24",
+    "title": ["Feedback als Lernmotor", "Feedback for learning"],
+    "category": ["Mechaniken", "Mechanics"],
+    "summary": [
+      "Rückmeldung zeigt den aktuellen Stand und den nächsten sinnvollen Schritt. Gute Erklärungen helfen mehr als ein bloßes Richtig/Falsch.",
+      "Feedback shows the current state and a useful next step. Explanations help more than a simple correct/incorrect label."
+    ],
+    "example": [
+      "Erkläre nach einer Entscheidung ihre Wirkung und ermögliche einen neuen Versuch.",
+      "Explain the impact of a decision and allow another attempt."
+    ],
+    "source": "Gamification / Foundations · S. 77–80"
+  },
+  {
+    "id": "n25",
+    "title": ["Erobern", "Capture"],
+    "category": ["Spielziele", "Objectives"],
+    "summary": [
+      "Ein Ziel sichern und die eigene Position schützen.",
+      "Secure an objective while protecting your position."
+    ],
+    "example": [
+      "Übertrage das Ziel auf eine Lernaufgabe und prüfe, ob es das Lernziel unterstützt.",
+      "Adapt the objective to a learning task and check whether it supports the learning goal."
+    ],
+    "source": "Game Design / Part I · S. 72–77"
+  },
+  {
+    "id": "n26",
+    "title": ["Verfolgen", "Chase"],
+    "category": ["Spielziele", "Objectives"],
+    "summary": ["Fangen oder entkommen.", "Catch or evade."],
+    "example": [
+      "Übertrage das Ziel auf eine Lernaufgabe und prüfe, ob es das Lernziel unterstützt.",
+      "Adapt the objective to a learning task and check whether it supports the learning goal."
+    ],
+    "source": "Game Design / Part I · S. 72–77"
+  },
+  {
+    "id": "n27",
+    "title": ["Wettrennen", "Race"],
+    "category": ["Spielziele", "Objectives"],
+    "summary": [
+      "Ein Ziel vor anderen erreichen.",
+      "Reach a goal before others."
+    ],
+    "example": [
+      "Übertrage das Ziel auf eine Lernaufgabe und prüfe, ob es das Lernziel unterstützt.",
+      "Adapt the objective to a learning task and check whether it supports the learning goal."
+    ],
+    "source": "Game Design / Part I · S. 72–77"
+  },
+  {
+    "id": "n28",
+    "title": ["Anordnen", "Alignment"],
+    "category": ["Spielziele", "Objectives"],
+    "summary": [
+      "Elemente räumlich oder begrifflich passend zusammenbringen.",
+      "Arrange elements spatially or conceptually."
+    ],
+    "example": [
+      "Übertrage das Ziel auf eine Lernaufgabe und prüfe, ob es das Lernziel unterstützt.",
+      "Adapt the objective to a learning task and check whether it supports the learning goal."
+    ],
+    "source": "Game Design / Part I · S. 72–77"
+  },
+  {
+    "id": "n29",
+    "title": ["Retten & Entkommen", "Rescue & escape"],
+    "category": ["Spielziele", "Objectives"],
+    "summary": [
+      "Personen oder Einheiten in Sicherheit bringen.",
+      "Bring people or units to safety."
+    ],
+    "example": [
+      "Übertrage das Ziel auf eine Lernaufgabe und prüfe, ob es das Lernziel unterstützt.",
+      "Adapt the objective to a learning task and check whether it supports the learning goal."
+    ],
+    "source": "Game Design / Part I · S. 72–77"
+  },
+  {
+    "id": "n30",
+    "title": ["Verbotene Aktion", "Forbidden act"],
+    "category": ["Spielziele", "Objectives"],
+    "summary": [
+      "Eine bestimmte Aktion vermeiden oder beim Gegenüber auslösen.",
+      "Avoid a specific action or induce it in an opponent."
+    ],
+    "example": [
+      "Übertrage das Ziel auf eine Lernaufgabe und prüfe, ob es das Lernziel unterstützt.",
+      "Adapt the objective to a learning task and check whether it supports the learning goal."
+    ],
+    "source": "Game Design / Part I · S. 72–77"
+  },
+  {
+    "id": "n31",
+    "title": ["Aufbauen", "Construction"],
+    "category": ["Spielziele", "Objectives"],
+    "summary": [
+      "Etwas aufbauen, erhalten oder verwalten.",
+      "Build, maintain or manage something."
+    ],
+    "example": [
+      "Übertrage das Ziel auf eine Lernaufgabe und prüfe, ob es das Lernziel unterstützt.",
+      "Adapt the objective to a learning task and check whether it supports the learning goal."
+    ],
+    "source": "Game Design / Part I · S. 72–77"
+  },
+  {
+    "id": "n32",
+    "title": ["Erkunden", "Exploration"],
+    "category": ["Spielziele", "Objectives"],
+    "summary": [
+      "Neue Bereiche oder Informationen entdecken.",
+      "Discover new areas or information."
+    ],
+    "example": [
+      "Übertrage das Ziel auf eine Lernaufgabe und prüfe, ob es das Lernziel unterstützt.",
+      "Adapt the objective to a learning task and check whether it supports the learning goal."
+    ],
+    "source": "Game Design / Part I · S. 72–77"
+  },
+  {
+    "id": "n33",
+    "title": ["Probleme lösen", "Solution"],
+    "category": ["Spielziele", "Objectives"],
+    "summary": ["Ein Rätsel oder Problem lösen.", "Solve a puzzle or problem."],
+    "example": [
+      "Übertrage das Ziel auf eine Lernaufgabe und prüfe, ob es das Lernziel unterstützt.",
+      "Adapt the objective to a learning task and check whether it supports the learning goal."
+    ],
+    "source": "Game Design / Part I · S. 72–77"
+  },
+  {
+    "id": "n34",
+    "title": ["Überlisten", "Outwit"],
+    "category": ["Spielziele", "Objectives"],
+    "summary": [
+      "Wissen geschickt einsetzen, um einen Vorteil zu gewinnen.",
+      "Use knowledge strategically to gain an advantage."
+    ],
+    "example": [
+      "Übertrage das Ziel auf eine Lernaufgabe und prüfe, ob es das Lernziel unterstützt.",
+      "Adapt the objective to a learning task and check whether it supports the learning goal."
+    ],
+    "source": "Game Design / Part I · S. 72–77"
+  }
+]

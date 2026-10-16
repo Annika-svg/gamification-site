@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.log
+
+# Local Impeccable consent, runtime cache and native engine
+.impeccable/config.local.json
+.impeccable/cache/
+.impeccable/live/*
+!.impeccable/live/config.json
+.cursor/skills/impeccable/scripts/bin/
