@@ -1,30 +1,75 @@
 // Adapted from Watermelon UI's command-search, continuous-tabs and copy-confirm.
 // MIT © 2026 Watermelon Platform Contributors. See docs/UI-SOURCES.md.
-import React, { useEffect, useRef, useState } from "react";
-import { Search, ArrowUpRight, X, Copy, Check, Sun, Moon } from "lucide-react";
+import React, { useEffect, useId, useRef, useState } from "react";
+import { Search, ArrowUpRight, X, Copy, Check } from "lucide-react";
 import { motion, LayoutGroup, useReducedMotion } from "motion/react";
 
+// Adapted from the user-provided Skiper UI ThemeToggleButton2.
+// Original animation concept: toggles.dev by Alfie Jones. React adaptation:
+// @gurvinder-singh02 / Skiper UI. Free-version attribution is in the footer.
 export function ThemeSwitch({ theme, onChange, l }) {
+  const reduced = useReducedMotion();
+  const clipId = "theme-cutout-" + useId().replace(/:/g, "");
+  const dark = theme === "dark";
+  const transition = { duration: reduced ? 0 : 0.35, ease: "easeInOut" };
+  const label = l
+    ? dark
+      ? "Switch to light mode"
+      : "Switch to dark mode"
+    : dark
+      ? "Hellen Modus aktivieren"
+      : "Dunklen Modus aktivieren";
   return (
     <button
+      type="button"
       className="theme-switch"
-      onClick={() => onChange(theme === "dark" ? "light" : "dark")}
-      aria-label={
-        l
-          ? theme === "dark"
-            ? "Switch to light mode"
-            : "Switch to dark mode"
-          : theme === "dark"
-            ? "Hellen Modus aktivieren"
-            : "Dunklen Modus aktivieren"
-      }
-      title={l ? "Change appearance" : "Darstellung wechseln"}
+      onClick={() => onChange(dark ? "light" : "dark")}
+      aria-label={label}
+      title={label}
+      aria-pressed={dark}
     >
-      <Sun size={15} />
-      <span className={"theme-switch-track " + theme}>
-        <span />
-      </span>
-      <Moon size={15} />
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true"
+        focusable="false"
+        fill="currentColor"
+        strokeLinecap="round"
+        viewBox="0 0 32 32"
+      >
+        <defs>
+          <clipPath id={clipId}>
+            <motion.path
+              initial={false}
+              animate={{ y: dark ? 10 : 0, x: dark ? -12 : 0 }}
+              transition={transition}
+              d="M0-5h30a1 1 0 0 0 9 13v24H0Z"
+            />
+          </clipPath>
+        </defs>
+        <g clipPath={"url(#" + clipId + ")"}>
+          <motion.circle
+            initial={false}
+            animate={{ r: dark ? 10 : 8 }}
+            transition={transition}
+            cx="16"
+            cy="16"
+          />
+          <motion.g
+            initial={false}
+            animate={{
+              rotate: dark ? -100 : 0,
+              scale: dark ? 0.5 : 1,
+              opacity: dark ? 0 : 1,
+            }}
+            transition={transition}
+            stroke="currentColor"
+            strokeWidth="1.5"
+            style={{ transformOrigin: "16px 16px" }}
+          >
+            <path d="M16 5.5v-4 M16 30.5v-4 M1.5 16h4 M26.5 16h4 M23.4 8.6l2.8-2.8 M5.7 26.3l2.9-2.9 M5.8 5.8l2.8 2.8 M23.4 23.4l2.9 2.9" />
+          </motion.g>
+        </g>
+      </svg>
     </button>
   );
 }
@@ -142,7 +187,9 @@ export function CommandSearch({ open, onClose, items, l }) {
           ref={input}
           aria-label={l ? "Search studio" : "Studio durchsuchen"}
           placeholder={
-            l ? "Where do you want to go?" : "Was möchtest du entdecken?"
+            l
+              ? "Search notes, mechanics or examples"
+              : "Notizen, Mechaniken oder Beispiele suchen"
           }
           value={query}
           onChange={(e) => {

@@ -1,0 +1,269 @@
+[
+  {
+    "id": "pattern",
+    "title": ["Muster erkennen", "Pattern recognition"],
+    "examples": [
+      [
+        "Memory: Aufdecken, merken, zuordnen",
+        "Gleiche Elemente kombinieren",
+        "Verdienen und Einsetzen von Ressourcen lernen"
+      ],
+      [
+        "Memory: reveal, remember, match",
+        "Combine matching items",
+        "Learn to earn and spend resources"
+      ]
+    ],
+    "practice": [
+      "Begriffe und Beispiele aus der Schulung als Memory-Paare zuordnen.",
+      "Match training concepts with examples as memory pairs."
+    ],
+    "goal": ["Verstehen", "Understanding"],
+    "demo": "memory"
+  },
+  {
+    "id": "collect",
+    "title": ["Sammeln", "Collecting"],
+    "examples": [
+      [
+        "Objekte, Marken oder Badges sammeln",
+        "Begrenzte Verfügbarkeit und Wiederkehr",
+        "Objekte mit anderen tauschen"
+      ],
+      [
+        "Collect objects, stamps or badges",
+        "Limited availability and return visits",
+        "Trade objects with others"
+      ]
+    ],
+    "practice": [
+      "Nach jeder gelösten Fallaufgabe einen Hinweis für die gemeinsame Abschlussaufgabe erhalten.",
+      "Earn a clue after each solved case for the shared final challenge."
+    ],
+    "goal": ["Fortschritt", "Progress"],
+    "demo": "collection"
+  },
+  {
+    "id": "surprise",
+    "title": ["Überraschung & Entdecken", "Surprise & discovery"],
+    "examples": [
+      [
+        "Variable Verstärkung, z. B. Zufallsbelohnungen",
+        "Easter Eggs und versteckte Objekte",
+        "Unerwartete, individuelle Auszeichnungen"
+      ],
+      [
+        "Variable reinforcement, e.g. random rewards",
+        "Easter eggs and hidden objects",
+        "Unexpected, individual awards"
+      ]
+    ],
+    "practice": [
+      "Einen optionalen Hinweis in einem Fall verstecken, der eine zweite Perspektive eröffnet.",
+      "Hide an optional clue in a case that opens up another perspective."
+    ],
+    "goal": ["Neugier", "Curiosity"],
+    "demo": "discovery"
+  },
+  {
+    "id": "order",
+    "title": ["Ordnen & Struktur schaffen", "Organizing & creating order"],
+    "examples": [
+      [
+        "Zeit- oder Durchsatzaufgaben",
+        "Elemente kombinieren oder symmetrisch anordnen",
+        "Menschen zu Gruppen oder Teams ordnen"
+      ],
+      [
+        "Time or throughput challenges",
+        "Combine items or create symmetry",
+        "Organize people into groups or teams"
+      ]
+    ],
+    "practice": [
+      "Schritte eines Feedbackgesprächs in eine sinnvolle Reihenfolge bringen.",
+      "Arrange the steps of a feedback conversation in a useful order."
+    ],
+    "goal": ["Verstehen", "Understanding"],
+    "demo": "sequence"
+  },
+  {
+    "id": "gift",
+    "title": ["Schenken", "Gifting"],
+    "examples": [
+      [
+        "Virtuelle Gegenstände weitergeben",
+        "Geschenkerinnerungen und Empfehlungen",
+        "Karma-Punkte ausschließlich verschenken"
+      ],
+      [
+        "Transfer virtual items",
+        "Gift reminders and recommendations",
+        "Karma points only used as gifts"
+      ]
+    ],
+    "practice": [
+      "Jedes Team erhält eine Hilfekarte, die es nur einem anderen Team geben darf.",
+      "Each team gets a help card that it can only give to another team."
+    ],
+    "goal": ["Zusammenarbeit", "Collaboration"],
+    "demo": "team"
+  },
+  {
+    "id": "connection",
+    "title": ["Kontakt & Interesse", "Connection & interest"],
+    "examples": [
+      [
+        "Leichte soziale Signale wie Anstupsen",
+        "Personen auswählen und Interesse zeigen",
+        "Virtuelle Geschenke oder kleine öffentliche Grüße"
+      ],
+      [
+        "Lightweight signals such as a nudge",
+        "Choose people and express interest",
+        "Virtual gifts or small public shout-outs"
+      ]
+    ],
+    "practice": [
+      "Freiwillige Lernpartnerschaften über gemeinsame Themen finden. Die Vorlage nennt hier Flirt und Romantik; für Schulungen wird daraus fachlicher Austausch.",
+      "Find voluntary learning partners through shared interests. The original names flirting and romance; for training, adapt this to professional exchange."
+    ],
+    "goal": ["Zusammenarbeit", "Collaboration"],
+    "demo": null
+  },
+  {
+    "id": "achievement",
+    "title": ["Leistung anerkennen", "Recognition for achievement"],
+    "examples": [
+      [
+        "Badges und Trophäen",
+        "Wettbewerbe, Gameshows und Preisverleihungen",
+        "Kudos als positives Feedback"
+      ],
+      [
+        "Badges and trophies",
+        "Contests, game shows and award ceremonies",
+        "Kudos as positive feedback"
+      ]
+    ],
+    "practice": [
+      "Eine Auszeichnung an eine angewendete Fähigkeit knüpfen und erklären, wofür sie steht.",
+      "Tie an award to an applied skill and explain what it represents."
+    ],
+    "goal": ["Fortschritt", "Progress"],
+    "demo": "collection"
+  },
+  {
+    "id": "lead",
+    "title": ["Andere anleiten", "Leading others"],
+    "examples": [
+      [
+        "Team-basierte kooperative Aufgaben",
+        "Level mit Verantwortung verbinden",
+        "Langfristige gemeinsame Herausforderungen"
+      ],
+      [
+        "Team-based cooperative challenges",
+        "Connect levels to responsibility",
+        "Long-term shared challenges"
+      ]
+    ],
+    "practice": [
+      "Eine Moderationsrolle rotiert, damit unterschiedliche Personen die Gruppe unterstützen.",
+      "Rotate a facilitator role so different people can support the group."
+    ],
+    "goal": ["Zusammenarbeit", "Collaboration"],
+    "demo": "team"
+  },
+  {
+    "id": "attention",
+    "title": ["Sichtbarkeit & Aufmerksamkeit", "Visibility & attention"],
+    "examples": [
+      [
+        "Ranglisten aus Feedback und Ergebnissen",
+        "Shows, Wettbewerbe und Auszeichnungen",
+        "Besondere Platzierung erfolgreicher Beiträge"
+      ],
+      [
+        "Leaderboards based on feedback and scores",
+        "Shows, contests and awards",
+        "Prominent placement of successful contributions"
+      ]
+    ],
+    "practice": [
+      "Gute Lösungsansätze mit Zustimmung zeigen, statt eine öffentliche Rangliste der Lernenden zu führen.",
+      "With consent, showcase useful solutions rather than a public ranking of learners."
+    ],
+    "goal": ["Anerkennung", "Recognition"],
+    "demo": null
+  },
+  {
+    "id": "hero",
+    "title": [
+      "Helfen & Verantwortung übernehmen",
+      "Helping & taking responsibility"
+    ],
+    "examples": [
+      [
+        "Rettungsaufgaben",
+        "Auf eine Bitte um Hilfe reagieren",
+        "Eine Aufgabe unter Zeitdruck lösen"
+      ],
+      [
+        "Rescue challenges",
+        "Respond to a request for help",
+        "Solve a challenge under time pressure"
+      ]
+    ],
+    "practice": [
+      "Ein Team löst einen Fall, indem es fehlende Informationen aus verschiedenen Rollen zusammenführt.",
+      "Solve a case by combining missing information from different roles."
+    ],
+    "goal": ["Zusammenarbeit", "Collaboration"],
+    "demo": "team"
+  },
+  {
+    "id": "status",
+    "title": ["Status aufbauen", "Gaining status"],
+    "examples": [
+      [
+        "Öffentlich sichtbare Badges und Trophäen",
+        "Seltene, limitierte sichtbare Gegenstände",
+        "Öffentliche Punktestände und Ranglisten"
+      ],
+      [
+        "Public badges and trophies",
+        "Scarce, limited-edition visible items",
+        "Public scores and leaderboards"
+      ]
+    ],
+    "practice": [
+      "Kompetenzstufen beschreiben konkrete Fähigkeiten. Sichtbarkeit bleibt freiwillig.",
+      "Describe concrete abilities through skill levels. Visibility stays optional."
+    ],
+    "goal": ["Anerkennung", "Recognition"],
+    "demo": "collection"
+  },
+  {
+    "id": "growth",
+    "title": ["Pflegen & Entwickeln", "Nurturing & growing"],
+    "examples": [
+      [
+        "Regelmäßig etwas versorgen, z. B. Tamagotchi",
+        "Punkte verfallen bei Inaktivität",
+        "Kumulative Ergebnisse für Teams und Leitende"
+      ],
+      [
+        "Regularly care for something, e.g. a Tamagotchi",
+        "Points expire after inactivity",
+        "Cumulative scores for teams and leaders"
+      ]
+    ],
+    "practice": [
+      "Eine gemeinsame Wissenssammlung wächst durch Beiträge. Bereits erarbeiteter Lernfortschritt bleibt erhalten.",
+      "A shared knowledge collection grows with contributions. Learning progress already earned is preserved."
+    ],
+    "goal": ["Fortschritt", "Progress"],
+    "demo": "resources"
+  }
+]

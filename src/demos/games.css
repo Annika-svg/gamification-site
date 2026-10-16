@@ -1,0 +1,294 @@
+/* Shared styles for the standalone React examples. Theme tokens are optional. */
+.game {
+  color: var(--ink, #2c3b4d);
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.game > p:first-child {
+  margin: 0 0 24px;
+  max-width: 65ch;
+  font-size: 14px;
+  line-height: 1.85;
+}
+.game fieldset {
+  padding: 0;
+  border: 0;
+  margin: 24px 0 0;
+  min-width: 0;
+}
+.game legend {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 550;
+  margin-bottom: 15px;
+  padding: 0;
+  max-width: 100%;
+}
+.game .choices {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.game .choice {
+  display: block;
+  width: 100%;
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid var(--control-border, #87877f);
+  background: var(--surface, #f8f5ef);
+  color: var(--ink, #2c3b4d);
+  border-radius: 4px;
+  font: inherit;
+  font-size: 14px;
+  line-height: 1.7;
+  cursor: pointer;
+}
+.game .choice:hover {
+  background: var(--subtle, #e4ddd0);
+}
+.game button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.game button:focus-visible,
+.game input:focus-visible {
+  outline: 2px solid var(--focus, #a35139);
+  outline-offset: 3px;
+}
+.game .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-height: 40px;
+  padding: 9px 15px;
+  background: var(--button, #2c3b4d);
+  color: var(--button-ink, #eee9df);
+  border: 1px solid var(--button, #2c3b4d);
+  border-radius: 5px;
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+  line-height: 1.5;
+}
+.game .button.secondary {
+  background: transparent;
+  border-color: var(--control-border, #87877f);
+  color: var(--ink, #2c3b4d);
+}
+.game .button-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+.game .game-status {
+  margin: 22px 0;
+  font-size: 13px;
+  line-height: 1.8;
+  color: var(--muted, #60615e);
+  min-height: 24px;
+}
+.game .inline-feedback {
+  background: var(--subtle, #e4ddd0);
+  color: var(--ink, #2c3b4d);
+  padding: 14px;
+  font-size: 13px;
+  margin: 15px 0;
+  line-height: 1.8;
+}
+.game .memory-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  max-width: 550px;
+}
+.game .memory-card {
+  min-height: 90px;
+  background: var(--subtle, #e4ddd0);
+  color: var(--ink, #2c3b4d);
+  border: 1px solid var(--control-border, #87877f);
+  border-radius: 4px;
+  font: inherit;
+  font-size: 12px;
+  padding: 8px;
+  cursor: pointer;
+  overflow-wrap: anywhere;
+}
+.game .memory-card > span {
+  font-size: 26px;
+  font-weight: 450;
+}
+.game .memory-card.revealed {
+  background: var(--surface, #f8f5ef);
+  border-color: var(--accent, #a35139);
+}
+.game .memory-card.matched {
+  background: var(--accent-soft, #f4dfc6);
+  border-color: var(--accent, #a35139);
+  color: var(--accent-text, #78412f);
+  opacity: 1;
+  cursor: default;
+}
+.game .collection-stamps {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.game .collection-stamps li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 13px;
+  border: 1px dashed var(--control-border, #87877f);
+  border-radius: 4px;
+  font-size: 12px;
+  color: var(--muted, #60615e);
+}
+.game .collection-stamps li.earned {
+  border-style: solid;
+  border-color: var(--accent, #a35139);
+  background: var(--accent-soft, #f4dfc6);
+  color: var(--accent-text, #78412f);
+}
+.game .completion {
+  font-size: 14px;
+  margin: 20px 0;
+  color: var(--ink, #2c3b4d);
+}
+.game .resource-balance {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding-bottom: 18px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--line, #c9c1b1);
+}
+.game .resource-balance b {
+  font-size: 30px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+.game .resource-balance span {
+  font-size: 13px;
+  color: var(--muted, #60615e);
+}
+.game .sequence-list {
+  padding: 0;
+  list-style: none;
+  margin: 25px 0;
+}
+.game .sequence-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line, #c9c1b1);
+  font-size: 14px;
+}
+.game .sequence-list li:first-child {
+  border-top: 1px solid var(--line, #c9c1b1);
+}
+.game .step-position {
+  font-size: 12px;
+  min-width: 18px;
+  color: var(--muted, #60615e);
+  font-variant-numeric: tabular-nums;
+}
+.game .sequence-list li > div {
+  margin-left: auto;
+  display: flex;
+  gap: 6px;
+}
+.game .move-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 33px;
+  min-height: 34px;
+  border: 1px solid var(--control-border, #87877f);
+  background: var(--surface, #f8f5ef);
+  color: var(--ink, #2c3b4d);
+  font: inherit;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.game .role-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.game .role-cards p,
+.game .discovery-item p {
+  margin: 10px 0 5px;
+  padding: 0 4px;
+  font-size: 13px;
+  color: var(--muted, #60615e);
+}
+.game form {
+  margin-top: 20px;
+}
+.game form label {
+  display: block;
+  margin-bottom: 14px;
+  font-size: 13px;
+}
+.game form input {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 7px;
+  background: var(--surface, #f8f5ef);
+  color: var(--ink, #2c3b4d);
+  font: inherit;
+  border: 1px solid var(--control-border, #87877f);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.game .preference-results {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+.game .preference-results li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 14px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line, #c9c1b1);
+}
+.game .preference-results b {
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+}
+@media (max-width: 560px) {
+  .game .memory-grid {
+    gap: 8px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .game .memory-card {
+    min-height: 76px;
+    font-size: 13px;
+  }
+  .game .sequence-list li {
+    font-size: 13px;
+    gap: 8px;
+  }
+  .game .move-button {
+    width: 29px;
+  }
+  .game .collection-stamps {
+    gap: 8px;
+  }
+  .game .collection-stamps li {
+    padding: 7px 9px;
+    font-size: 11px;
+  }
+}

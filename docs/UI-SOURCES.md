@@ -16,7 +16,7 @@
 - Revision: 9a5415fffb871b3aa5ceee3860be1bb9e14682a3.
 - Source-backed selections adapted in `src/components/StudioUI.jsx`:
   - `command-search/base.tsx`: quick search of pages and notes, Cmd/Ctrl+K, arrows and Enter. Adapted to a native dialog with focus containment, escape and restored focus.
-  - `continuous-tabs/base.tsx`: shared-layout active pill for the three playground demos. Controlled state, pressed-state semantics and reduced-motion support added.
+  - `continuous-tabs/base.tsx`: shared-layout active pill for switching between the live example and its React source. Controlled state, pressed-state semantics and reduced-motion support added.
   - `copy-confirm/base.tsx`: clipboard action changes from Copy to Copied. Simplified animation and added error handling/timer cleanup.
 - Source directory: `src/data/contents/animated-components/` in the official repository. Components use the existing CSS system rather than introducing Tailwind.
 - Additional suitable candidates inspected in the catalog tree: `filter-disclosure` for larger filter sets, `feature-tour` for optional onboarding, `expand-details` for progressive disclosure. Deferred until the current UI needs them.
@@ -41,3 +41,23 @@
 ## Cloud access
 
 The requested domains and optional secret requirement are saved in the cloud configuration draft. Saving the draft does not apply networking, inject a key, connect MCP tools in this session or publish the environment. Review/save the environment settings and publish when appropriate. The main application works without these external design services.
+
+## Subsequent simplification
+
+On user request, the promotional overview and decorative tiles were removed. Knowledge is a reading workspace, mechanics a source-based reference, and examples functional games. The Watermelon continuous-tabs adaptation now switches between a game and its exact React source. The brand palette, theme switch, command search and copy confirmation remain. JSON export/import UI was removed; existing local data is preserved. Templates support print/PDF.
+
+## Componentry — note overview
+
+- Reference: https://componentry.dev/docs/components/orbit-card-stack
+- Official repository: https://github.com/harshjdhv/componentry
+- Revision: b602c2872fea85c9f2464016ce3bbe0af17b51b4.
+- Source: `packages/ui/src/components/orbit-card-stack.tsx` and its documentation component. The documentation site was blocked by egress policy; the official GitHub source was accessible.
+- Adapted in `src/components/NoteOrbitStack.jsx`: compact resting deck, orbit fan on hover/focus, raised active card, arrow-key navigation and reduced-motion support. Profile imagery is replaced by actual note titles, summaries and sources. Notes are grouped by topic; previous/next controls expose every note in each group, and selecting a card opens the existing reading/editor view.
+- No new runtime dependencies. Styling uses the existing light/dark palette.
+- License: `licenses/componentry-MIT.txt`.
+
+## Animated theme toggle — user-supplied Skiper UI example
+
+The user supplied a React/Framer Motion example containing five `ThemeToggleButton` variants. The header adapts variant 2 (sun rays retract and a moving SVG cutout reveals a crescent) in `src/components/StudioUI.jsx`. The toggle is controlled by the application's persisted theme rather than the example's local demo state. SVG clip IDs are unique, labels are localized, keyboard operation is native, and reduced motion uses a zero-duration transition. No new dependency is required; the project uses `motion/react`.
+
+Attribution from the supplied source: React adaptation by @gurvinder-singh02 / Skiper UI, based on open-source CSS theme toggles at https://toggles.dev/ by Alfie Jones. The supplied usage notice allows free personal/commercial modification and requires Skiper UI attribution for the free version. The public footer includes that credit; no Pro entitlement is assumed. The example's draggable configuration panel and five redundant demo switches are not included in the product.

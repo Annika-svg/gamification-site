@@ -1,6 +1,6 @@
 # Spielraum
 
-Persönliches Gamification-Studio für Schulungen, Workshops und E-Learning. React 19 / Vite 6, Node.js 22 oder neuer.
+Persönliche Sammlung für die Gestaltung von Schulungen, Workshops und E-Learning. React / Vite, Node.js 22 oder neuer.
 
 ## Entwicklung
 
@@ -11,23 +11,22 @@ npm run dev
 
 Produktionsbuild: `npm run build`. Lokal prüfen: `npm run preview`.
 
-## Funktionen
+## Inhalte
 
-- 34 deutsch/englische Wissenskarten aus den bereitgestellten Notizen, mit Suche, Themenfiltern und Bearbeitung.
-- Mechanik-Finder nach fünf Gestaltungszielen.
-- Drei interaktive Demos mit eigenständigen React-Komponenten zum Kopieren und Herunterladen.
-- Editierbarer Analyse-Canvas nach der Bildvorlage.
-- Drei Cursor Skills als `SKILL.md` zum Download.
-- Lokale Speicherung im Browser, JSON-Export und validierter JSON-Import. Import führt Einträge anhand ihrer IDs zusammen; importierte Einträge mit gleicher ID ersetzen die lokale Fassung. Exporte enthalten beide Sprachfassungen.
+- **Wissen:** 34 deutsch/englische Notizen aus den bereitgestellten Texten, mit Themenstapeln nach dem Orbit-Card-Stack-Muster, Suche, Themenfilter und direkter Bearbeitung. Zwischen Übersicht und Lesen kann gewechselt werden.
+- **Mechaniken:** alle zwölf Interessen aus „Table 5-1. Example game mechanics“, jeweils mit den drei Mechaniken der Vorlage und einer Übertragung auf Schulungen. Der Ziel-Filter übernimmt die Aufgabe des bisherigen Finders.
+- **Beispiele:** sieben bedienbare React-Beispiele: Memory, Wissensmarken, Hilfe-Token, Reihenfolge, kooperativer Fall, versteckter Hinweis und Reflexion von Spielpräferenzen. Der Code-Download enthält genau den Quellcode der angezeigten Komponente. `games.css` kann separat heruntergeladen werden und gehört in denselben Ordner. Keine weiteren UI-Bibliotheken nötig.
+- **Templates:** Analyse-Canvas nach der Bildvorlage, mit mehreren lokal gespeicherten Analysen und Drucken/PDF über den Browserdialog.
+- **Cursor Skills:** drei Anweisungsdateien zum Ansehen, Kopieren und Herunterladen.
 
-Kein Backend, kein Login und keine synchronisierte Teamablage. Inhalte werden über JSON-Dateien geteilt. Regelmäßig exportieren: Browserdaten können gelöscht werden. Keine personenbezogenen Testergebnisse erfassen. Der Präferenztest ist nur eine Reflexionsdemo.
+Die Oberfläche bietet Deutsch/Englisch, Light/Dark-Mode und Schnellsuche per Cmd/Ctrl+K. Lenis berücksichtigt reduzierte Bewegung. Schriften werden lokal ausgeliefert.
 
-Die Wissenskarten sind Paraphrasen; Praxisbeispiele wurden ergänzt. Die gelieferten Notizen enthalten keine vollständige Bibliografie. Quellenbezeichnungen sind daher vorläufig, Seitenangaben wurden übernommen. Eigene Notizen werden pro Sprache bearbeitet, ohne automatische Übersetzung. Die React-Codebeispiele verwenden englische Texte.
+## Speicherung und Quellen
 
-## Design und UI-Werkzeuge
+Notizen und Templates bleiben in localStorage. Bestehende Daten aus der bisherigen Version werden weiterverwendet. Auf Nutzerwunsch gibt es keine JSON-Import-/Export-Bedienelemente mehr. Ohne Backend gibt es keine gemeinsame Teamablage oder automatische Sicherung; das Löschen von Browserdaten entfernt lokal gespeicherte Änderungen. Analysen können über Drucken/PDF gesichert werden.
 
-Light/Dark-Mode nach der gelieferten Palette, mit gespeicherter Auswahl und Systemvorgabe beim ersten Besuch. Schnellsuche mit Cmd/Ctrl+K, animierte Demo-Auswahl und Bestätigung beim Code-Kopieren. Lenis glättet das Scrollen; bei reduzierter Bewegung bleibt es ausgeschaltet. Schriftdateien werden lokal ausgeliefert.
+Die Wissensnotizen sind Paraphrasen mit ergänzten Praxisbeispielen. Vollständige bibliografische Angaben wurden nicht geliefert. Die Mechanikenübersicht basiert auf der vom Nutzer bereitgestellten Tabelle; die Demo-Implementierungen und Übertragungen wurden ergänzt. Das Rollenbeispiel läuft lokal in einem Browser, nicht als Mehrspieler-Anwendung. Spielpräferenzen dienen nur der Reflexion und sind keine validierte Persönlichkeitsdiagnostik.
 
-Impeccable ist als Cursor-Skill integriert, Watermelon MCP konfiguriert. 21st MCP ist als Konfigurationsvorlage vorbereitet und benötigt noch einen API-Key. Quellen, Lizenzen, konkrete Komponentenauswahl und Aktivierung: [docs/UI-SOURCES.md](docs/UI-SOURCES.md).
+## Design-Werkzeuge
 
-Impeccable ist initialisiert (`PRODUCT.md`, `.impeccable/config.json`). Der bestätigte Build-Standard ist code-first. Cursor-Hooks sind in `.cursor/hooks.json` aktiviert; nach dem Neuladen von Cursor unter Settings → Hooks prüfen. `npm ci` richtet den offiziellen, versionsgebundenen Impeccable-Engine-Aufruf automatisch ein. Lokale Zustimmung und native Binärdateien werden nicht eingecheckt. Live-Mode ist für die Vite-HTML-Datei vorkonfiguriert, aber nicht gestartet.
+Impeccable ist initialisiert, Code-first bestätigt und Cursor-Hooks sind aktiv. `npm ci` bereitet die versionsgebundene native Engine vor. Live-Mode ist konfiguriert, aber nicht gestartet. Watermelon MCP ist konfiguriert; 21st MCP benötigt weiterhin einen sicher hinterlegten API-Key. Quellen und Lizenzen: [docs/UI-SOURCES.md](docs/UI-SOURCES.md).

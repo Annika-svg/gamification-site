@@ -1,0 +1,14 @@
+export function skillContent(id, l) {
+  const task = {
+    design: l
+      ? "Design a gamified learning experience"
+      : "Entwirf ein gamifiziertes Lernerlebnis",
+    review: l
+      ? "Review a gamification concept"
+      : "Prüfe ein Gamification-Konzept",
+    prototype: l
+      ? "Build a React learning prototype"
+      : "Baue einen React-Lernprototyp",
+  }[id];
+  return `---\nname: gamification-${id}\ndescription: ${task} for training, workshops and e-learning.\n---\n\n# ${task}\n\n${l ? "Work in the language requested by the user." : "Arbeite in der vom Nutzer gewünschten Sprache."}\n\n1. ${l ? "Identify audience, learning objective, context and constraints. Ask only for missing essentials." : "Kläre Zielgruppe, Lernziel, Kontext und Grenzen. Frage nur nach fehlenden wesentlichen Angaben."}\n2. ${l ? "Define the desired player experience before selecting features." : "Formuliere das gewünschte Spielerlebnis vor der Auswahl von Features."}\n3. ${l ? "Connect mechanics, emerging dynamics and experience (MDA)." : "Verknüpfe Mechaniken, entstehende Dynamiken und Erlebnis (MDA)."}\n4. ${l ? "Describe the core loop: action → informative feedback → progress → next action." : "Beschreibe den Core Loop: Aktion → informatives Feedback → Fortschritt → nächste Aktion."}\n5. ${l ? "Include voluntary participation, accessibility and a cooperative alternative to competition." : "Berücksichtige Freiwilligkeit, Zugänglichkeit und eine kooperative Alternative zu Wettbewerb."}\n6. ${l ? "Treat player types as design lenses, never validated personality diagnoses. Do not generalize source percentages." : "Nutze Spielertypen als Designperspektive, niemals als validierte Persönlichkeitsdiagnostik. Verallgemeinere keine Prozentwerte aus Quellen."}\n7. ${id === "prototype" ? (l ? "Deliver a runnable React component with keyboard-accessible controls, reset and explanatory feedback. No participant tracking." : "Liefere eine lauffähige React-Komponente mit tastaturbedienbaren Elementen, Reset und erklärendem Feedback. Kein Teilnehmenden-Tracking.") : id === "review" ? (l ? "Report strengths, learning-goal gaps, risks and three prioritized improvements." : "Berichte Stärken, Lücken zum Lernziel, Risiken und drei priorisierte Verbesserungen.") : l ? "Offer two suitable mechanics, one workshop example and one e-learning example." : "Schlage zwei passende Mechaniken, ein Workshop-Beispiel und ein E-Learning-Beispiel vor."}\n8. ${l ? "End with a small playtest plan and observable success criteria. Distinguish evidence from assumptions." : "Schließe mit einem kleinen Playtest-Plan und beobachtbaren Erfolgskriterien. Trenne Belege von Annahmen."}\n\n## Sources\nUser-supplied condensed notes: playcentric design, formal elements, MDA, motivation and feedback. Page references are in the Spielraum library; full bibliography is not yet provided.\n`;
+}
